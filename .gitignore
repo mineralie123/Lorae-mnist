@@ -1,0 +1,35 @@
+# Local environments and setup
+/.venv/
+/.setup-tmp/
+# Downloaded datasets and generated local runs
+/data/
+/results/
+# Python and tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+# Checkpoints and temporary files
+*.pt
+*.pth
+*.tmp
+*.log
+*.bak
+*~
+# Local editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+# Local credentials and environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Historical local inventory
+/created-files.txt
+# published_results/ is intentionally included

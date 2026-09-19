@@ -1,0 +1,18 @@
+{
+  "extend_both": true,
+  "target_epochs": 30,
+  "models": {
+    "ae": {
+      "mean_epochs_5_7": 0.007593426987528801,
+      "mean_epochs_8_10": 0.005099011587599914,
+      "relative_improvement": 0.3284966595485325,
+      "triggers_extension": true
+    },
+    "lorae": {
+      "mean_epochs_5_7": 0.020192377840479215,
+      "mean_epochs_8_10": 0.017815718449652195,
+      "relative_improvement": 0.11770081808109707,
+      "triggers_extension": true
+    }
+  }
+}

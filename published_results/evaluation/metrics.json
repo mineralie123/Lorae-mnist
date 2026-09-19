@@ -1,0 +1,23 @@
+{
+  "evaluation_split": "test",
+  "models": {
+    "ae": {
+      "test_reconstruction_mse": 0.0025550804536789654,
+      "evaluation_examples": 10000,
+      "parameter_count": 2041057,
+      "cumulative_training_seconds": 241.86617659998592,
+      "final_epoch": 30,
+      "effective_dimension_95": 29,
+      "effective_dimension_99": 38
+    },
+    "lorae": {
+      "test_reconstruction_mse": 0.014270503836870193,
+      "evaluation_examples": 10000,
+      "parameter_count": 2057441,
+      "cumulative_training_seconds": 221.42575409993879,
+      "final_epoch": 30,
+      "effective_dimension_95": 7,
+      "effective_dimension_99": 7
+    }
+  }
+}

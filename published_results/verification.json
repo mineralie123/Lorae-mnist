@@ -1,0 +1,84 @@
+{
+  "verification": "passed",
+  "expected_result_files_verified": 25,
+  "plots_verified": [
+    "reconstruction_curves.png",
+    "lorae_objective_curves.png",
+    "lorae_nuclear_norm_curve.png",
+    "latent_covariance_spectra.png",
+    "M_singular_values.png",
+    "matched_reconstructions.png",
+    "fixed_interpolations.png"
+  ],
+  "source_matches_smoke_run_and_current_files": true,
+  "dataset_indices_verified": true,
+  "final_epochs_per_model": 30,
+  "final_M_nuclear_norm": 1.158299207687378,
+  "final_M_weighted_penalty": 0.001158299207687378,
+  "summed_training_and_validation_seconds": 463.2919306999247,
+  "final_epoch_training_metrics": {
+    "ae": {
+      "epoch": "30",
+      "train_reconstruction_mse": "0.001507154661230743",
+      "train_total_objective": "0.001507154661230743",
+      "train_nuclear_norm": "",
+      "train_weighted_penalty": "",
+      "validation_reconstruction_mse": "0.0026085763275623323",
+      "epoch_seconds": "7.003244199993787",
+      "cumulative_training_seconds": "241.86617659998592"
+    },
+    "lorae": {
+      "epoch": "30",
+      "train_reconstruction_mse": "0.011678763122856617",
+      "train_total_objective": "0.012834770300984382",
+      "train_nuclear_norm": "1.156007112121582",
+      "train_weighted_penalty": "0.0011560071680694819",
+      "validation_reconstruction_mse": "0.014667690880596638",
+      "epoch_seconds": "7.326042900007451",
+      "cumulative_training_seconds": "221.42575409993879"
+    }
+  },
+  "metrics": {
+    "evaluation_split": "test",
+    "models": {
+      "ae": {
+        "test_reconstruction_mse": 0.0025550804536789654,
+        "evaluation_examples": 10000,
+        "parameter_count": 2041057,
+        "cumulative_training_seconds": 241.86617659998592,
+        "final_epoch": 30,
+        "effective_dimension_95": 29,
+        "effective_dimension_99": 38
+      },
+      "lorae": {
+        "test_reconstruction_mse": 0.014270503836870193,
+        "evaluation_examples": 10000,
+        "parameter_count": 2057441,
+        "cumulative_training_seconds": 221.42575409993879,
+        "final_epoch": 30,
+        "effective_dimension_95": 7,
+        "effective_dimension_99": 7
+      }
+    }
+  },
+  "extension_decision": {
+    "extend_both": true,
+    "target_epochs": 30,
+    "models": {
+      "ae": {
+        "mean_epochs_5_7": 0.007593426987528801,
+        "mean_epochs_8_10": 0.005099011587599914,
+        "relative_improvement": 0.3284966595485325,
+        "triggers_extension": true
+      },
+      "lorae": {
+        "mean_epochs_5_7": 0.020192377840479215,
+        "mean_epochs_8_10": 0.017815718449652195,
+        "relative_improvement": 0.11770081808109707,
+        "triggers_extension": true
+      }
+    }
+  },
+  "errors": [],
+  "protocol_deviations": []
+}

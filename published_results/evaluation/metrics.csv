@@ -1,0 +1,3 @@
+model,test_reconstruction_mse,evaluation_examples,parameter_count,cumulative_training_seconds,final_epoch,effective_dimension_95,effective_dimension_99
+ae,0.0025550804536789654,10000,2041057,241.86617659998592,30,29,38
+lorae,0.014270503836870193,10000,2057441,221.42575409993879,30,7,7
