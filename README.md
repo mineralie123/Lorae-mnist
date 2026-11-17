@@ -1,4 +1,4 @@
-# CISC3024 AI Assignment #1: LoRAE on MNIST
+# LoRAE on MNIST
 
 AI-generated educational implementation for CISC3024 AI Assignment #1. This project compares a standard convolutional autoencoder (AE) with a low-rank autoencoder (LoRAE) in a small, reproducible Windows CPU experiment. It is not the authors' official LoRAE repository and does not reproduce the paper's full benchmarks. No pretrained weights are used.
 
